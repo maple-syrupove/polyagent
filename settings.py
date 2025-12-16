@@ -1,0 +1,27 @@
+# settings.py
+
+# --- 屏幕与帧率 ---
+WIDTH, HEIGHT = 1200, 600
+FPS = 60
+
+# --- 颜色定义 ---
+WHITE = (240, 240, 240, 255)
+BLACK = (20, 20, 20, 255)
+GRAY = (200, 200, 200, 255)
+ROAD_COLOR = (50, 50, 50, 255)
+WOOD_COLOR = (160, 82, 45, 255)
+STEEL_COLOR = (70, 130, 180, 255)
+DELETE_COLOR = (255, 50, 50, 255)
+NODE_COLOR = (255, 255, 255, 255)
+NODE_BORDER = (0, 0, 0, 255)
+EDGE_NODE_COLOR = (255, 80, 80, 255) 
+
+# --- 物理分类掩码 (Bitmasks) ---
+CAT_GROUND  = 0b00001
+CAT_CAR     = 0b00010
+CAT_ROAD    = 0b00100
+CAT_SUPPORT = 0b01000
+CAT_NODE    = 0b10000
+
+# --- 最大建造距离 ---
+MAX_BUILD_DIST = 140
