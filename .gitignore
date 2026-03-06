@@ -1,0 +1,5 @@
+# Environment variables (API keys, tokens, etc.)
+.env
+
+# 本地路径配置 (包含存档目录等敏感路径)
+paths.py
