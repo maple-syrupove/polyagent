@@ -45,7 +45,13 @@ class LLMHandler_inf:
             request_params.update(kwargs)
             
             response = openai.chat.completions.create(**request_params)
-            return response.choices[0].message.content
+            message = response.choices[0].message
+
+            # 如果使用了 tools，检查是否有 tool_calls
+            if hasattr(message, 'tool_calls') and message.tool_calls:
+                return message  # 返回完整的 message 对象以便处理 tool_calls
+
+            return message.content
         except Exception as e:
             print(f"调用API时发生错误: {str(e)}")
             raise e

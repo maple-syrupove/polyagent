@@ -1,0 +1,399 @@
+{
+    "DisplayName": "1",
+    "Objects": [
+        {
+            "type": 0,
+            "x": 0,
+            "y": 0,
+            "id": 1,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0,
+            "isKinematic": true
+        },
+        {
+            "type": 0,
+            "x": 8,
+            "y": 0,
+            "id": 2,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0,
+            "isKinematic": true
+        },
+        {
+            "type": 0,
+            "x": 0,
+            "y": -2,
+            "id": 3,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0,
+            "isKinematic": true
+        },
+        {
+            "type": 0,
+            "x": 8,
+            "y": -2,
+            "id": 4,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0,
+            "isKinematic": true
+        },
+        {
+            "type": 0,
+            "x": 2,
+            "y": 0,
+            "id": 5,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 4,
+            "y": 0,
+            "id": 6,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 6,
+            "y": 0,
+            "id": 7,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 1,
+            "y": 1.5,
+            "id": 8,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 3,
+            "y": 1.5,
+            "id": 9,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 5,
+            "y": 1.5,
+            "id": 10,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 0,
+            "x": 7,
+            "y": 1.5,
+            "id": 11,
+            "anchorAID": 0,
+            "anchorBID": 0,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 1,
+            "x": 1,
+            "y": 0,
+            "id": 12,
+            "anchorAID": 1,
+            "anchorBID": 5,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 1,
+            "x": 3,
+            "y": 0,
+            "id": 13,
+            "anchorAID": 5,
+            "anchorBID": 6,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 1,
+            "x": 5,
+            "y": 0,
+            "id": 14,
+            "anchorAID": 6,
+            "anchorBID": 7,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 1,
+            "x": 7,
+            "y": 0,
+            "id": 15,
+            "anchorAID": 7,
+            "anchorBID": 2,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 0.5,
+            "y": 0.75,
+            "id": 16,
+            "anchorAID": 1,
+            "anchorBID": 8,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 1.5,
+            "y": 0.75,
+            "id": 17,
+            "anchorAID": 5,
+            "anchorBID": 8,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 2.5,
+            "y": 0.75,
+            "id": 18,
+            "anchorAID": 5,
+            "anchorBID": 9,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 3.5,
+            "y": 0.75,
+            "id": 19,
+            "anchorAID": 6,
+            "anchorBID": 9,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 4.5,
+            "y": 0.75,
+            "id": 20,
+            "anchorAID": 6,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 5.5,
+            "y": 0.75,
+            "id": 21,
+            "anchorAID": 7,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 6.5,
+            "y": 0.75,
+            "id": 22,
+            "anchorAID": 7,
+            "anchorBID": 11,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 7.5,
+            "y": 0.75,
+            "id": 23,
+            "anchorAID": 2,
+            "anchorBID": 11,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 2,
+            "y": 1.5,
+            "id": 24,
+            "anchorAID": 8,
+            "anchorBID": 9,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 4,
+            "y": 1.5,
+            "id": 25,
+            "anchorAID": 9,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 6,
+            "y": 1.5,
+            "id": 26,
+            "anchorAID": 10,
+            "anchorBID": 11,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 1.5,
+            "y": 0.75,
+            "id": 27,
+            "anchorAID": 1,
+            "anchorBID": 9,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 2.5,
+            "y": 0.75,
+            "id": 28,
+            "anchorAID": 5,
+            "anchorBID": 8,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 3.5,
+            "y": 0.75,
+            "id": 29,
+            "anchorAID": 5,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 4.5,
+            "y": 0.75,
+            "id": 30,
+            "anchorAID": 6,
+            "anchorBID": 9,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 5.5,
+            "y": 0.75,
+            "id": 31,
+            "anchorAID": 6,
+            "anchorBID": 11,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 6.5,
+            "y": 0.75,
+            "id": 32,
+            "anchorAID": 7,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 7.5,
+            "y": 0.75,
+            "id": 33,
+            "anchorAID": 2,
+            "anchorBID": 10,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 0,
+            "y": -1,
+            "id": 34,
+            "anchorAID": 1,
+            "anchorBID": 3,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 8,
+            "y": -1,
+            "id": 35,
+            "anchorAID": 2,
+            "anchorBID": 4,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 1,
+            "y": -1,
+            "id": 36,
+            "anchorAID": 3,
+            "anchorBID": 5,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 3,
+            "y": -1,
+            "id": 37,
+            "anchorAID": 3,
+            "anchorBID": 6,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 5,
+            "y": -1,
+            "id": 38,
+            "anchorAID": 4,
+            "anchorBID": 6,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        },
+        {
+            "type": 2,
+            "x": 7,
+            "y": -1,
+            "id": 39,
+            "anchorAID": 4,
+            "anchorBID": 7,
+            "splitForDrawBridge": 0,
+            "rate": 0
+        }
+    ]
+}

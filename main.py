@@ -11,9 +11,11 @@ from PIL import Image
 # 引入你提供的自定义 LLM Handler
 from llm_inf import LLMHandler_inf
 # 引入 encode.py 的加密函数
-from encode import encode_save
+from tool.encode import encode_save
 # 引入路径配置
 import paths
+# 引入自动加载存档模块
+from tool import auto_load_savefiles
 
 # ================= 加载环境变量 =================
 def load_env(env_file: str = ".env"):
@@ -275,6 +277,10 @@ def save_to_layout_file(design_data, timestamp):
         with open(target_filepath, 'w', encoding='utf-8') as dst:
             dst.write(content)
         print(f"📂 已复制到游戏存档目录: {target_filepath}")
+
+        # 加载存档到游戏界面
+        print("🎮 准备加载存档到游戏界面...")
+        auto_load_savefiles.load_polybridge_save()
     except Exception as e:
         print(f"❌ 复制到游戏存档目录失败: {e}")
 
